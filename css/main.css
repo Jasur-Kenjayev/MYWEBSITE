@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#jek1 {
+    background-color: #35424a;
+    border-bottom: 5px solid rgb(44, 255, 7);
+
+}
+#jek1 h1 {
+    color: #fff;
+    font-family: sans-serif;
+    padding: 15px 0px;
+    display: inline-block;
+}
+#jek1 .jek3 {
+    color: lawngreen;
+}
+.jek2 {
+    width: 70%;
+    margin: auto;
+}
+.jek4 {
+    float: right;
+}
+.jek4 li {
+    display: inline;
+}
+.jek4 li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 25px 15px;
+    display: inline-block;
+}
+.jek4 li a:hover {
+    color: lightblue;
+}
+.rasm {
+    height: 70vh;
+    background-image: url(../img/K1.png);
+    background-size: cover;
+    background-position: center 2000;
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+}
+@media (min-width: 768px) and (max-width: 1280px) {
+    .rasm {
+        background-image: url(../img/M1.jpg);
+    }
+}
+.rasm h1 {
+    font-size: 50px;
+    margin-bottom: 25px;
+    padding-top: 50px;
+}
+#newsletter {
+    background-color: #35424a;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 20px 0px;
+    display: inline-block;
+    width: 100%;
+}
+#newsletter .left {
+    float: left;
+}
+#newsletter .right {
+    float: right;
+}
+#newsletter input {
+    padding: 5px;
+}
+.button {
+    padding: 7px 15px;
+    border: none;
+    background-color: coral;
+    color: #fff;
+    margin: 10px;
+}
+#courses {
+    padding: 30px 0;
+}
+.box {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    font-family: sans-serif;
+}
+.box img {
+    max-width: 100%;
+    width: 120px;
+}
+.clr {
+    clear: both;
+}
+#footer {
+    padding: 10px 0;
+    text-align: center;
+    background-color: coral;
+    color: #fff;
+    margin-top: 40px;
+}
